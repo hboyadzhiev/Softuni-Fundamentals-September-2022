@@ -20,4 +20,3 @@ print(f"Team A - {team_a}; Team B - {team_b}")
 if terminated:
     print("Game was terminated")
 
-
