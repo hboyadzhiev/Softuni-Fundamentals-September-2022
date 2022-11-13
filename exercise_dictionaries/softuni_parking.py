@@ -10,7 +10,7 @@ for user in range(iterations_count):
         if username not in registered:
             registered[username] = plate
             print(f"{username} registered {plate} successfully")
-        else:
+        else
             print(f"ERROR: already registered with plate number {registered[username]}")
 
     elif command[0] == "unregister":
