@@ -1,5 +1,5 @@
+areas = {}
 while True:
-    areas = {}
     line = input()
     if line == "EndDay":
         break
@@ -19,7 +19,7 @@ while True:
         splitted_2 = splitted[1].split("-")
         animal_name, food = splitted_2[0], int(splitted_2[1])
         for current_area in areas.keys():
-            if animal_name in current_area.keys():
+            if animal_name in current_area:
                 current_area[animal_name] -= food
                 if current_area[animal_name] <= 0:
                     print(f"{animal_name} was successfully fed")
